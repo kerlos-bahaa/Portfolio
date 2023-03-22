@@ -95,16 +95,13 @@ h1 {
 ul {
   display: flex;
   list-style: none;
-  height: 20px;
-  position: absolute;
-  left: -32px;
+  justify-content: flex-start;
+  padding: 0;
+  gap: 20px;
 }
 
 ul li a {
   font-size: 17.99px;
   color: #505f79;
-  margin: 20px;
-  width: 19.985925674438477px;
   border-radius: 0;
-  height: 19.96px;
 }
