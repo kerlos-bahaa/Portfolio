@@ -17,12 +17,13 @@ body {
 header {
   width: 100%;
   background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav {
-  margin-left: 24px;
-  height: 48px;
-  display: flex;
+  padding-right: 31px;
 }
 
 .logo {
@@ -30,14 +31,13 @@ nav {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
-  width: 50%;
+  padding-left: 24px;
   align-self: center;
   font-style: normal;
-  height: 48;
+  text-decoration: none;
 }
 
 header nav div {
-  width: 50%;
   display: flex;
   justify-content: flex-end;
 }
