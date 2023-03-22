@@ -1,0 +1,107 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #e5e5e5;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 375px;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  padding-right: 31px;
+}
+
+.logo {
+  color: #6070ff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  padding-left: 24px;
+  align-self: center;
+  font-style: normal;
+  text-decoration: none;
+}
+
+header nav div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav div img {
+  width: 18px;
+  height: 12px;
+  align-self: center;
+  margin-right: 35px;
+}
+
+main {
+  border-radius: 0 0 0 76px;
+  background-image: url(/picture/header-shapes\ mobile.png);
+  height: 618px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+main section div {
+  margin-top: 95px;
+  margin-left: 24px;
+  margin-right: 24px;
+  color: #172b4d;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.intro {
+  color: #344563;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.Connect {
+  color: #7f8cff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  padding: 0;
+  gap: 20px;
+}
+
+ul li a {
+  font-size: 17.99px;
+  color: #505f79;
+  border-radius: 0;
+}
