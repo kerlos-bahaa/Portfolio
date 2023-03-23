@@ -59,7 +59,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[cooperative learning ]**
+- **[Add work section part and about myself part ]**
 - **[process-based management]**
 - **[work Efficiency ]**
 
