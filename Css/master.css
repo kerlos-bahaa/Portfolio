@@ -57,7 +57,7 @@ main {
   background-repeat: no-repeat;
 }
 
-section {
+section.first-section {
   display: flex;
   flex-direction: column;
 }
@@ -104,4 +104,137 @@ ul li a {
   font-size: 17.99px;
   color: #505f79;
   border-radius: 0;
+}
+
+/* sectionbegin */
+
+.space {
+  width: 375px;
+  height: 90px;
+}
+
+section.repeated-section {
+  height: 552px;
+  width: 327px;
+  margin: 24px;
+  top: 114px;
+  border-radius: 16px;
+  padding: 16px;
+  display: grid;
+  background-color: #ffffff;
+
+  grid-template-rows: 200px 70px 35px 92px;
+}
+img.repeated-img {
+  height: 220px;
+  width: 295px;
+
+  border-radius: 8px;
+  display: inline-block;
+}
+p.repeated-p1 {
+  height: 36px;
+  width: 295px;
+  left: 0px;
+  top: 0px;
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+ul.repeated-ul {
+  list-style: disc;
+  height: fit-content;
+  width: fit-content;
+  left: 0px;
+  top: 48px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  align-items: baseline;
+  justify-content: space-between;
+
+  gap: 32px;
+}
+li.repeated-li1 {
+  list-style: none;
+  color: #344563;
+}
+li.repeated-li2 {
+  color: #7a869a;
+}
+li.repeated-li3 {
+  color: #7a869a;
+}
+ul.repeated-ul li::marker {
+  color: #c1c7d0;
+  font-size: 16px;
+}
+p.repeated-p2 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 76px;
+  width: 295px;
+  left: 0px;
+  top: 92px;
+  border-radius: nullpx;
+}
+ul.repeated-ul2 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+li.repeated-li4 {
+  color: #6070ff;
+  background-color: #ebebff;
+  height: 24px;
+  width: 57px;
+
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+}
+li.repeated-li5 {
+  color: #6070ff;
+  background-color: #ebebff;
+  height: 24px;
+  width: 49px;
+  left: 65px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+}
+li.repeated-li6 {
+  color: #6070ff;
+  background-color: #ebebff;
+  height: 24px;
+  width: 92px;
+  left: 122px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+}
+button.see-button {
+  color: #396df2;
+  background-color: #ffffff;
+  border: 1px #6070ff solid;
+  height: 48px;
+  width: 126px;
+  left: 0px;
+  top: 12px;
+  border-radius: 8px;
+  padding: 12px;
+
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+
+  text-align: center;
 }
