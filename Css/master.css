@@ -246,3 +246,20 @@ button.see-button:active {
   color: #ffffff;
   background-color: #2230d2;
 }
+
+/* second page  */
+section.repeated-section-2 {
+  height: 592px;
+  grid-template-rows: 200px 110px 35px 92px;
+  width: 327px;
+  margin: 24px;
+  top: 114px;
+  border-radius: 16px;
+  padding: 16px;
+  display: grid;
+  background-color: #ffffff;
+}
+.space-2 {
+  width: 375px;
+  height: 44px;
+}
