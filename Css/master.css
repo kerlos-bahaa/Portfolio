@@ -57,12 +57,12 @@ main {
   background-repeat: no-repeat;
 }
 
-section.first-section {
+div.first-div {
   display: flex;
   flex-direction: column;
 }
 
-main section div {
+main div div {
   margin-top: 95px;
   margin-left: 24px;
   margin-right: 24px;
@@ -113,7 +113,7 @@ ul li a {
   height: 90px;
 }
 
-section.repeated-section {
+div.repeated-div {
   height: 552px;
   width: 327px;
   margin: 24px;
@@ -132,7 +132,7 @@ img.repeated-img {
   display: inline-block;
 }
 
-p.repeated-p1 {
+h2.repeated-p1 {
   height: 36px;
   width: 295px;
   left: 0;
@@ -257,7 +257,7 @@ button.see-button:active {
 }
 
 /* second page  */
-section.repeated-section-2 {
+div.repeated-div-2 {
   height: 592px;
   grid-template-rows: 200px 110px 35px 92px;
   width: 327px;
@@ -270,8 +270,8 @@ section.repeated-section-2 {
 }
 
 .space-2 {
-  width: 375px;
-  height: 44px;
+  display: grid;
+  gap: 88px;
 }
 
 /* about my self */
@@ -399,4 +399,15 @@ li.end-part-3::after {
   border-color: #acb7c3 #acb7c3 transparent transparent;
   margin-left: 210px;
   transform: rotate(45deg);
+}
+
+.About-name {
+  font-weight: 700;
+  font-size: 40px;
+  color: #172b4d;
+}
+
+.space-3 {
+  width: 375px;
+  height: 24px;
 }
