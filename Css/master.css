@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 375px;
 }
 
@@ -370,7 +370,7 @@ ul.skil {
 
 li.end-part-1::after {
   display: inline-flex;
-  content: "";
+  content: '';
   width: 6px;
   height: 6px;
   border: 2px solid;
@@ -381,7 +381,7 @@ li.end-part-1::after {
 
 li.end-part-2::after {
   display: inline-flex;
-  content: "";
+  content: '';
   width: 6px;
   height: 6px;
   border: 2px solid;
@@ -392,7 +392,7 @@ li.end-part-2::after {
 
 li.end-part-3::after {
   display: inline-flex;
-  content: "";
+  content: '';
   width: 6px;
   height: 6px;
   border: 2px solid;
@@ -416,14 +416,15 @@ li.end-part-3::after {
 footer {
   margin-top: -90px;
 }
+
 .title {
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 0;
   text-align: left;
-  color: #172b4d;
   text-align: center;
 }
+
 .footer-section {
   height: 779px;
   width: 375px;
@@ -437,4 +438,12 @@ footer {
 .contact-header {
   display: flex;
   flex-direction: column;
+}
+
+.gray-text {
+  color: #172b4d;
+}
+
+.white-text {
+  color: #fff;
 }
