@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 375px;
 }
 
@@ -370,7 +370,7 @@ ul.skil {
 
 li.end-part-1::after {
   display: inline-flex;
-  content: "";
+  content: '';
   width: 6px;
   height: 6px;
   border: 2px solid;
@@ -381,7 +381,7 @@ li.end-part-1::after {
 
 li.end-part-2::after {
   display: inline-flex;
-  content: "";
+  content: '';
   width: 6px;
   height: 6px;
   border: 2px solid;
@@ -392,7 +392,7 @@ li.end-part-2::after {
 
 li.end-part-3::after {
   display: inline-flex;
-  content: "";
+  content: '';
   width: 6px;
   height: 6px;
   border: 2px solid;
@@ -410,4 +410,18 @@ li.end-part-3::after {
 .space-3 {
   width: 375px;
   height: 24px;
+}
+
+/* contact me */
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+}
+
+.contact-header {
+  
 }
