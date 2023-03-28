@@ -411,3 +411,99 @@ li.end-part-3::after {
   width: 375px;
   height: 24px;
 }
+
+/* contact me */
+footer {
+  margin-top: -90px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: left;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 103px;
+}
+
+.footer-section {
+  height: 779px;
+  width: 375px;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+  background-image: url(/picture/contact\ form\ shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.contact-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.gray-text {
+  color: #172b4d;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.par {
+  max-width: 75%;
+  align-self: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 28px;
+}
+
+.form-submit {
+  align-self: start;
+  width: 35%;
+  margin-left: 13%;
+}
+
+.input-form {
+  width: 75%;
+  border-radius: 12px;
+  border: 1px solid #6070ff;
+  min-height: 48px;
+  padding-left: 12px;
+}
+
+textarea.input-form {
+  padding-top: 15px;
+  height: 170px;
+  resize: none;
+}
+
+button.form-submit {
+  color: #6070ff;
+  background-color: #fff;
+  border: 1px #6070ff solid;
+  height: 48px;
+  width: 126px;
+  left: 0;
+  top: 12px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+button.form-submit:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+button.form-submit:active {
+  color: #fff;
+  background-color: #2230d2;
+}
