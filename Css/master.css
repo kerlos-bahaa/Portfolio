@@ -423,7 +423,7 @@ footer {
   letter-spacing: 0;
   text-align: left;
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   margin-top: 103px;
 }
 
@@ -449,6 +449,7 @@ footer {
 .white-text {
   color: #fff;
 }
+
 .par {
   max-width: 75%;
   align-self: center;
