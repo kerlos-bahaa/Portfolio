@@ -151,7 +151,6 @@ h2.repeated-p1 {
 
 ul.repeated-ul {
   margin-top: 72px;
-
   list-style: disc;
   height: fit-content;
   width: fit-content;
@@ -347,9 +346,6 @@ button.resume:active {
   background-color: #2230d2;
 }
 
-ul .end-part {
-}
-
 ul.skil {
   flex-direction: column;
 }
@@ -513,13 +509,16 @@ button.form-submit:active {
   color: #fff;
   background-color: #2230d2;
 }
+
 /* desktop */
 .nav-links {
   display: none;
 }
+
 .pcrepeated-img {
   display: none;
 }
+
 .second-page-image {
   display: none;
 }
