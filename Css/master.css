@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  width: 375px;
+  width: 100%;
 }
 
 header {
@@ -49,12 +49,15 @@ header nav div img {
   margin-right: 35px;
 }
 
+/* header end  */
+
 main {
   border-radius: 0 0 0 76px;
   background-image: url(/picture/header-shapes\ mobile.png);
   height: 618px;
   background-color: #fff;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 div.first-div {
@@ -114,7 +117,7 @@ ul li a {
 }
 
 div.repeated-div {
-  height: 552px;
+  height: 566px;
   width: 327px;
   margin: 24px;
   top: 114px;
@@ -133,6 +136,7 @@ img.repeated-img {
 }
 
 h2.repeated-p1 {
+  padding-top: 36px;
   height: 36px;
   width: 295px;
   left: 0;
@@ -146,6 +150,8 @@ h2.repeated-p1 {
 }
 
 ul.repeated-ul {
+  margin-top: 72px;
+
   list-style: disc;
   height: fit-content;
   width: fit-content;
@@ -272,12 +278,14 @@ div.repeated-div-2 {
 .space-2 {
   display: grid;
   gap: 88px;
+  width: 100%;
+  justify-items: center;
 }
 
 /* about my self */
 section.about-myself {
   height: 1263px;
-  width: 375px;
+  width: 100%;
   left: 375px;
   top: 4769px;
   background-color: #fff;
@@ -300,13 +308,16 @@ ul.end-part {
   flex-direction: column;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 0px;
   letter-spacing: 0;
   text-align: left;
+  display: flex;
+  margin-left: 15px;
+  margin-top: 50px;
 }
 
 hr {
-  width: 327px;
+  width: 94%;
   border-top: 1px solid #dfe1e6;
 }
 
@@ -337,10 +348,6 @@ button.resume:active {
 }
 
 ul .end-part {
-  display: flex;
-  margin-top: 27px;
-  margin-left: 15px;
-  flex-direction: column;
 }
 
 ul.skil {
@@ -350,7 +357,7 @@ ul.skil {
 .skil li {
   background: #f7f7f9;
   height: 66.7155990600586px;
-  width: 303px;
+  width: 95%;
   left: 12px;
   top: 169.43115234375px;
   border-radius: 8px;
@@ -375,7 +382,7 @@ li.end-part-1::after {
   height: 6px;
   border: 2px solid;
   border-color: #acb7c3 #acb7c3 transparent transparent;
-  margin-left: 144px;
+  margin-left: 70%;
   transform: rotate(135deg);
 }
 
@@ -386,7 +393,7 @@ li.end-part-2::after {
   height: 6px;
   border: 2px solid;
   border-color: #acb7c3 #acb7c3 transparent transparent;
-  margin-left: 135px;
+  margin-left: 70%;
   transform: rotate(45deg);
 }
 
@@ -397,7 +404,7 @@ li.end-part-3::after {
   height: 6px;
   border: 2px solid;
   border-color: #acb7c3 #acb7c3 transparent transparent;
-  margin-left: 210px;
+  margin-left: 70%;
   transform: rotate(45deg);
 }
 
@@ -412,9 +419,8 @@ li.end-part-3::after {
   height: 24px;
 }
 
-/* contact me */
 footer {
-  margin-top: -90px;
+  margin-top: -150px;
 }
 
 .title {
@@ -429,7 +435,7 @@ footer {
 
 .footer-section {
   height: 779px;
-  width: 375px;
+  width: 100%;
   background-color: #6070ff;
   border-top-left-radius: 80px;
   background-image: url(/picture/contact\ form\ shapes-mobile.png);
@@ -506,4 +512,14 @@ button.form-submit:hover {
 button.form-submit:active {
   color: #fff;
   background-color: #2230d2;
+}
+/* desktop */
+.nav-links {
+  display: none;
+}
+.pcrepeated-img {
+  display: none;
+}
+.second-page-image {
+  display: none;
 }

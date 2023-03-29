@@ -1,0 +1,265 @@
+body {
+  width: 100%;
+}
+.logo {
+  padding-left: 21.4%;
+}
+header p {
+  width: 50%;
+
+  height: 32px;
+}
+header {
+  padding-bottom: 55.61px;
+  width: 100%;
+}
+
+.nav-links {
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  gap: 32px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #344563;
+}
+nav {
+  padding-right: 11.8%;
+  margin-top: 10px;
+}
+nav img {
+  display: none;
+}
+
+/* headr end  */
+
+main {
+  background-image: url(/picture/desk1.png);
+  color: #fff;
+  background-size: contain;
+  background-position: 34.6px;
+  height: 798px;
+  padding-left: 236px;
+  padding-top: 123.6px;
+  width: 100%;
+}
+main div {
+  width: 82%;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0.3700000047683716px;
+}
+main div div p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Connect {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/* first page  */
+div.repeated-div {
+  height: 496px;
+  width: 80.2%;
+  display: flex;
+  margin: 0;
+  min-width: 92%;
+
+  align-items: center;
+}
+img.repeated-img {
+  display: none;
+}
+.pcrepeated-img {
+  display: inline-flex;
+  width: 43%;
+  max-height: 480px;
+}
+.pc12-div {
+  margin-left: 46px;
+  margin-top: -123px;
+  width: 50%;
+}
+.repeated-p1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+p.repeated-p2 {
+  width: 86%;
+  margin-top: 30px;
+}
+ul.repeated-ul2 {
+  margin-bottom: 36px;
+}
+.repeated-li1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.repeated-li2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.repeated-li2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.space {
+  width: 100%;
+}
+.space-2 {
+  width: 100%;
+  justify-items: center;
+}
+/* second page  */
+div.repeated-div-2 {
+  height: 496px;
+  width: 93%;
+  display: flex;
+  margin: 0;
+
+  justify-content: center;
+}
+
+.space-2 {
+  display: grid;
+  gap: 88px;
+}
+.second-page-image {
+  align-self: center;
+  display: flex;
+  max-height: 455px;
+  width: 50%;
+}
+.second-page-image img {
+  width: 100%;
+  min-width: 10%;
+  margin-left: 50px;
+}
+/* abiout myself  */
+section.about-myself {
+  width: 100%;
+  height: 900px;
+}
+div.div-flex {
+  flex-direction: row;
+}
+.aboutmyself-top {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 20px;
+}
+section.about-myself {
+  width: 100%;
+}
+ul.skil {
+  flex-direction: row;
+}
+.end-part {
+  width: 32%;
+  align-items: flex-start;
+}
+.aboutmyself-bottom {
+  width: 73%;
+}
+.skil li {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  background: #f7f7f9;
+  padding-left: 5px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  align-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.intro {
+  width: 80%;
+}
+ul.end-part {
+  width: 100%;
+}
+ul.end-part hr {
+  width: 90%;
+  margin-left: -5px;
+}
+li.end-part-1::after,
+li.end-part-2::after {
+  margin-left: 70%;
+}
+li.end-part-3::after {
+  margin-left: 70%;
+}
+.end-part-1,
+.end-part-2,
+.end-part-3 {
+  width: 100%;
+}
+.image-java {
+  padding-right: 30px;
+}
+/* contact me  */
+footer {
+  width: 100%;
+  margin-top: -150px;
+}
+.footer-section {
+  width: 100%;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.par {
+  height: 102px;
+  width: 569px;
+  left: 116px;
+  top: 68px;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.input-form {
+  height: 48px;
+  width: 447px;
+  left: 0px;
+  top: 0px;
+  border-radius: 2px;
+}
+button.form-submit {
+  margin-left: 36%;
+}
