@@ -26,6 +26,16 @@ nav {
   padding-right: 31px;
 }
 
+nav .nav-links .nav-transition {
+  transition: font-size 1s ease 0s,
+  color 1s ease 0s;
+}
+
+nav .nav-links .nav-transition:hover {
+  font-size: 30px;
+  color: #6070ff;
+}
+
 .logo {
   color: #6070ff;
   font-size: 18px;
