@@ -169,7 +169,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add a second page file ]**
+- **[Add a second page file ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
