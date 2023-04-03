@@ -27,9 +27,7 @@ nav {
 }
 
 nav .nav-links .nav-transition {
-  transition:
-    font-size 1s ease 0s,
-    color 1s ease 0s;
+  transition: font-size 1s ease 0s, color 1s ease 0s;
 }
 
 nav .nav-links .nav-transition:hover {
@@ -64,7 +62,7 @@ header nav div img {
 
 main {
   border-radius: 0 0 0 76px;
-  background-image: url(/picture/header-shapes\ mobile.png);
+  background-image: url(../picture/header-shapes\ mobile.png);
   height: 618px;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -445,7 +443,7 @@ footer {
   width: 100%;
   background-color: #6070ff;
   border-top-left-radius: 80px;
-  background-image: url(/picture/contact\ form\ shapes-mobile.png);
+  background-image: url(../picture/contact\ form\ shapes-mobile.png);
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -581,7 +579,7 @@ button.form-submit:active {
   /* headr end  */
 
   main {
-    background-image: url(/picture/desk1.png);
+    background-image: url(../picture/desk1.png);
     color: #fff;
     background-size: contain;
     background-position: 34.6px;
@@ -803,7 +801,7 @@ button.form-submit:active {
 
   .footer-section {
     width: 100%;
-    background-image: url(/picture/pclastimage.png);
+    background-image: url(../picture/pclastimage.png);
   }
 
   form {

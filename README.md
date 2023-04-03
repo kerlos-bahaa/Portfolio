@@ -64,6 +64,11 @@
 - **[work Efficiency ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://kerlos-bahaa.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,7 +174,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add a second page file ]**
+- **[Add a second page file ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
