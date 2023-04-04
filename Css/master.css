@@ -36,7 +36,8 @@ nav .nav-links .nav-transition:hover {
 }
 
 .logo {
-  color: #6070ff;
+  background-color: #fff;
+  color: #5e6be1;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -96,7 +97,7 @@ h1 {
 }
 
 .Connect {
-  color: #7f8cff;
+  color: #5968ed;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -180,11 +181,13 @@ li.repeated-li1 {
 }
 
 li.repeated-li2 {
-  color: #7a869a;
+  color: #5e708d;
+  background-color: #fff;
 }
 
 li.repeated-li3 {
-  color: #7a869a;
+  color: #5e708d;
+  background-color: #fff;
 }
 
 ul.repeated-ul li::marker {
@@ -214,7 +217,7 @@ ul.repeated-ul2 {
 }
 
 li.repeated-li4 {
-  color: #6070ff;
+  color: #4758f3;
   background-color: #ebebff;
   height: 24px;
   width: 57px;
@@ -223,7 +226,7 @@ li.repeated-li4 {
 }
 
 li.repeated-li5 {
-  color: #6070ff;
+  color: #4758f3;
   background-color: #ebebff;
   height: 24px;
   width: 49px;
@@ -234,7 +237,7 @@ li.repeated-li5 {
 }
 
 li.repeated-li6 {
-  color: #6070ff;
+  color: #4758f3;
   background-color: #ebebff;
   height: 24px;
   width: 92px;
@@ -459,6 +462,7 @@ footer {
 
 .white-text {
   color: #fff;
+  background-color: #5364f52e;
 }
 
 .par {
@@ -495,7 +499,7 @@ textarea.input-form {
 }
 
 button.form-submit {
-  color: #6070ff;
+  color: #4f5fed;
   background-color: #fff;
   border: 1px #6070ff solid;
   height: 48px;
@@ -536,6 +540,7 @@ label {
   color: #fff;
   width: 90%;
 }
+
 /* Desktop version */
 @media (min-width: 768px) {
   body {
