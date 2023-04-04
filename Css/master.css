@@ -439,7 +439,7 @@ footer {
 }
 
 .footer-section {
-  height: 779px;
+  height: 100vh;
   width: 100%;
   background-color: #6070ff;
   border-top-left-radius: 80px;
@@ -532,6 +532,10 @@ button.form-submit:active {
   display: none;
 }
 
+label {
+  color: #fff;
+  width: 90%;
+}
 /* Desktop version */
 @media (min-width: 768px) {
   body {
