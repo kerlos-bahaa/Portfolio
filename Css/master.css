@@ -540,16 +540,16 @@ label {
   color: #fff;
   width: 90%;
 }
+
 .nav-links-2 {
   transform: translateY(-100%);
   display: flex;
   background-color: #6070ffb8;
-
-  left: 0px;
+  left: 0;
   flex-direction: column;
   position: fixed;
   width: 100%;
-  top: 0px;
+  top: 0;
   height: 100%;
   backdrop-filter: blur(8px);
   justify-content: flex-start;
@@ -558,18 +558,20 @@ label {
   gap: 35px;
   transition: 1s;
 }
+
 .nav-transition-1,
 .nav-transition-2,
 .nav-transition-3 {
   height: 24px;
   width: 251px;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   font-size: 32px;
   font-weight: 600;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
 }
+
 .axe {
   display: flex;
   width: 12px;
@@ -579,6 +581,7 @@ label {
   padding-right: 30px;
   font-size: 20px;
 }
+
 h3 {
   margin-top: 40px;
 }
@@ -588,6 +591,7 @@ h3 {
   .nav-links-2 {
     display: none;
   }
+
   body {
     width: 100%;
   }
