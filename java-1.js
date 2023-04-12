@@ -63,7 +63,7 @@ const projectArray = [
 
 const project = document.querySelector("#portid");
 
-for (let i = 0; i < projectArray.length; i++) {
+for (let i = 0; i < projectArray.length; i += 1) {
   project.innerHTML += `
   <div class="${i % 2 ? "repeated-div" : "repeated-div-2"}">
   
@@ -100,7 +100,7 @@ const seebutton = document.querySelectorAll(".see-button");
 // const pc12div = document.querySelectorAll(".pc12-div");
 
 seebutton.forEach((button) => {
-  button.addEventListener("click", (e) => {
+  button.addEventListener("click", () => {
     const overlay = document.createElement("div");
     overlay.className = "popup-overly";
     document.body.appendChild(overlay);
@@ -108,7 +108,7 @@ seebutton.forEach((button) => {
     const popupbox = document.createElement("div");
     popupbox.className = "popup-box";
     overlay.appendChild(popupbox);
-    for (let i = 0; i < projectArray.length; i++) {
+    for (let i = 0; i < projectArray.length; i += 1) {
       popupbox.innerHTML += `
       <div class="popupcardfirst"> 
       <div class="axey">x</div>
