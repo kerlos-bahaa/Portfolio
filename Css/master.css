@@ -14,6 +14,10 @@ body {
   width: 100%;
 }
 
+h3 {
+  margin-top: 40px;
+}
+
 header {
   width: 100%;
   background-color: #fff;
@@ -162,10 +166,12 @@ h2.repeated-p1 {
   letter-spacing: 0;
   text-align: left;
 }
+
 .popupcardfirst h3 {
   padding: 0;
   margin: 0;
 }
+
 .axey {
   justify-content: end;
   color: black;
@@ -173,6 +179,7 @@ h2.repeated-p1 {
   padding-right: 50px;
   display: flex;
 }
+
 .axey2 {
   justify-content: end;
   color: red;
@@ -180,39 +187,7 @@ h2.repeated-p1 {
   padding-right: 50px;
   display: flex;
 }
-.popupcardfirst ul.repeated-ul {
-  padding: 0;
-  margin: 0;
-}
-.popupcardfirst .pcrepeated-img {
-  width: 100%;
-}
-.popupcardfirst div.repeated-div-2 {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 60%;
-}
-.popupcardfirst .pc12-div {
-  display: flex;
-  width: 100%;
-}
-.popupcardfirst .lastpopvutton {
-  margin-right: 70px;
-  margin-top: 50px;
-}
-.popupcardfirst .lastpopputton {
-  display: flex;
-  gap: 26px;
-  margin-top: 20px;
-}
-.popupcardfirst .lastpopputton button.see-button {
-  width: 170px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  justify-content: center;
-}
+
 ul.repeated-ul {
   margin-top: 50px;
   list-style: disc;
@@ -636,9 +611,6 @@ label {
   font-size: 20px;
 }
 
-h3 {
-  margin-top: 40px;
-}
 .popup-overly {
   display: flex;
   position: fixed;
@@ -650,6 +622,7 @@ h3 {
   z-index: 1000;
   transform: translateY(0%);
 }
+
 .popup-box {
   justify-content: center;
   position: fixed;
@@ -667,38 +640,88 @@ h3 {
   gap: 200px;
   overflow: hidden;
 }
+
 .popupcardfirst {
   height: 46%;
 }
+
 .popup-box p.repeated-p2 {
   max-height: 20%;
 }
+
+.popupcardfirst ul.repeated-ul {
+  padding: 0;
+  margin: 0;
+}
+
+.popupcardfirst .pcrepeated-img {
+  width: 100%;
+}
+
+.popupcardfirst div.repeated-div-2 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 60%;
+}
+
+.popupcardfirst .pc12-div {
+  display: flex;
+  width: 100%;
+}
+
+.popupcardfirst .lastpopvutton {
+  margin-right: 70px;
+  margin-top: 50px;
+}
+
+.popupcardfirst .lastpopputton {
+  display: flex;
+  gap: 26px;
+  margin-top: 20px;
+}
+
+.popupcardfirst .lastpopputton button.see-button {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
 /* Desktop version */
 @media (max-width: 767px) {
   .popupcardfirst {
     width: 100%;
   }
+
   .pcardfirstimg .repeated-img {
     width: 50%;
     height: 100%;
   }
+
   .popupcardfirst .pc12-div {
     flex-direction: column;
   }
+
   .popupcardfirst img.repeated-img {
     width: 60%;
     height: 100%;
   }
+
   .popupcardfirst .lastpopvutton {
     margin-top: 55px;
     width: 60%;
   }
+
   .popup-box p.repeated-p2 {
     overflow: hidden;
   }
+
   .axey {
     width: 71%;
   }
+
   .popup-box {
     padding-left: 190px;
   }
@@ -798,7 +821,6 @@ h3 {
     display: flex;
     margin: 0;
     min-width: 80%;
-
     margin-bottom: 100px;
   }
 
@@ -814,7 +836,6 @@ h3 {
 
   .pc12-div {
     margin-left: 46px;
-
     width: 50%;
   }
 
@@ -1013,4 +1034,5 @@ h3 {
     margin-left: 36%;
   }
 }
+
 /*  pop up section work  */

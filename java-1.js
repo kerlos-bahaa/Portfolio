@@ -22,7 +22,7 @@ mytra3.onclick = function () {
 };
 
 // pop up section work
-let projectArray = [
+const projectArray = [
   {
     name: "Tonic",
     description: `  A daily selection of privately personalized reads; no accounts or
@@ -61,7 +61,7 @@ let projectArray = [
   },
 ];
 
-let project = document.querySelector("#portid");
+const project = document.querySelector("#portid");
 
 for (let i = 0; i < projectArray.length; i++) {
   project.innerHTML += `
@@ -101,12 +101,12 @@ const seebutton = document.querySelectorAll(".see-button");
 
 seebutton.forEach((button) => {
   button.addEventListener("click", (e) => {
-    let overlay = document.createElement("div");
-    overlay.className = `popup-overly`;
+    const overlay = document.createElement("div");
+    overlay.className = "popup-overly";
     document.body.appendChild(overlay);
 
-    let popupbox = document.createElement("div");
-    popupbox.className = `popup-box`;
+    const popupbox = document.createElement("div");
+    popupbox.className = "popup-box";
     overlay.appendChild(popupbox);
     for (let i = 0; i < projectArray.length; i++) {
       popupbox.innerHTML += `
