@@ -158,5 +158,10 @@ seebutton.forEach((button) => {
     `;
     }
     const myaxey = document.querySelectorAll(".axey");
+    myaxey.forEach((element) => {
+      element.onclick = function () {
+        overlay.style.display = " none";
+      };
+    });
   });
 });
