@@ -176,7 +176,7 @@ h2.repeated-p1 {
   justify-content: end;
   color: black;
   width: 100%;
-  padding-right: 50px;
+  padding-right: 10px;
   display: flex;
 }
 
@@ -677,8 +677,9 @@ label {
 
 .popupcardfirst .lastpopputton {
   display: flex;
-  gap: 26px;
+  gap: 10px;
   margin-top: 20px;
+  width: 98%;
 }
 
 .popupcardfirst .lastpopputton button.see-button {
@@ -687,6 +688,7 @@ label {
   align-items: center;
   gap: 10px;
   justify-content: center;
+  padding: 0;
 }
 
 /* Desktop version */
@@ -705,12 +707,11 @@ label {
   }
 
   .popupcardfirst img.repeated-img {
-    width: 60%;
+    width: 58%;
     height: 100%;
   }
 
   .popupcardfirst .lastpopvutton {
-    margin-top: 55px;
     width: 60%;
   }
 
@@ -719,11 +720,33 @@ label {
   }
 
   .axey {
-    width: 71%;
+    width: 66%;
   }
 
   .popup-box {
-    padding-left: 190px;
+    padding-left: 250px;
+    height: 65%;
+    width: 90%;
+  }
+
+  .popupcardfirst .lastpopputton button.see-button {
+    width: 223px;
+    margin-right: 6px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .popup-box {
+    padding-left: 250px;
+    height: 65%;
+    width: 65%;
+  }
+}
+
+@media (max-width: 599px) {
+  .popup-box {
+    width: 90%;
+    height: 633px;
   }
 }
 
