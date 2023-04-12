@@ -99,7 +99,7 @@ for (let i = 0; i < projectArray.length; i += 1) {
 const seebutton = document.querySelectorAll('.see-button');
 // const pc12div = document.querySelectorAll(".pc12-div");
 
-seebutton.forEach((button) => {
+seebutton.forEach((button, index) => {
   button.addEventListener('click', () => {
     const overlay = document.createElement('div');
     overlay.className = 'popup-overly';
@@ -108,24 +108,24 @@ seebutton.forEach((button) => {
     const popupbox = document.createElement('div');
     popupbox.className = 'popup-box';
     overlay.appendChild(popupbox);
-    for (let i = 0; i < projectArray.length; i += 1) {
-      popupbox.innerHTML += `
+
+    popupbox.innerHTML = `
       <div class="popupcardfirst"> 
       <div class="axey">x</div>
-            <h3 class="repeated-p1"> ${projectArray[i].name} </h3>
+            <h3 class="repeated-p1"> ${projectArray[index].name} </h3>
             <div> 
             <ul class="repeated-ul">
             <li class="repeated-li1">CANOPY</li>
             <li class="repeated-li2">Back End Dev</li>
             <li class="repeated-li3">2015</li>
             </div> 
-      <div class="${i % 2 ? 'repeated-div' : 'repeated-div-2'}">
+      <div class="repeated-div-2">
       <img class="repeated-img" src="${
-  projectArray[i].featuredImage
+  projectArray[index].featuredImage
 }" alt="Snapshoot Portfolio " />
       
     <img class="pcrepeated-img" src="${
-  projectArray[i].featuredImage
+  projectArray[index].featuredImage
 }" alt="Snapshoot Portfolio"> 
     </div>
     <div class="pc12-div">
@@ -143,9 +143,9 @@ seebutton.forEach((button) => {
     </ul>
 
       <ul class="repeated-ul2">
-        <li class="repeated-li4">${projectArray[i].technologies[0]}</li>
-        <li class="repeated-li5">${projectArray[i].technologies[1]}</li>
-        <li class="repeated-li6">${projectArray[i].technologies[2]}</li>
+        <li class="repeated-li4">${projectArray[index].technologies[0]}</li>
+        <li class="repeated-li5">${projectArray[index].technologies[1]}</li>
+        <li class="repeated-li6">${projectArray[index].technologies[2]}</li>
 
       </ul>
       <hr>
@@ -157,13 +157,12 @@ seebutton.forEach((button) => {
     </div> 
     </div>
     `;
-    }
-    const myaxey = document.querySelectorAll('.axey');
-    myaxey.forEach((element) => {
-      element.onclick = function () {
-        overlay.style.display = ' none';
-      };
-    });
+
+    const myaxey = document.querySelector('.axey');
+
+    myaxey.onclick = function () {
+      overlay.remove();
+    };
   });
 });
 // const OpenProject = document.querySelectorAll(".see-button");
