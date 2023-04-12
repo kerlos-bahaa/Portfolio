@@ -88,12 +88,14 @@ h1 {
 }
 
 .intro {
+  max-height: 240px;
   color: #344563;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
+  overflow: hidden;
 }
 
 .Connect {
@@ -127,7 +129,7 @@ ul li a {
 }
 
 div.repeated-div {
-  height: 566px;
+  height: 100%;
   width: 327px;
   margin: 24px;
   top: 114px;
@@ -136,6 +138,8 @@ div.repeated-div {
   display: grid;
   background-color: #fff;
   grid-template-rows: 200px 70px 35px 92px;
+  flex-direction: row-reverse;
+  margin-bottom: 100px;
 }
 
 img.repeated-img {
@@ -158,9 +162,59 @@ h2.repeated-p1 {
   letter-spacing: 0;
   text-align: left;
 }
-
+.popupcardfirst h3 {
+  padding: 0;
+  margin: 0;
+}
+.axey {
+  justify-content: end;
+  color: black;
+  width: 100%;
+  padding-right: 50px;
+  display: flex;
+}
+.axey2 {
+  justify-content: end;
+  color: red;
+  width: 100%;
+  padding-right: 50px;
+  display: flex;
+}
+.popupcardfirst ul.repeated-ul {
+  padding: 0;
+  margin: 0;
+}
+.popupcardfirst .pcrepeated-img {
+  width: 100%;
+}
+.popupcardfirst div.repeated-div-2 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 60%;
+}
+.popupcardfirst .pc12-div {
+  display: flex;
+  width: 100%;
+}
+.popupcardfirst .lastpopvutton {
+  margin-right: 70px;
+  margin-top: 50px;
+}
+.popupcardfirst .lastpopputton {
+  display: flex;
+  gap: 26px;
+  margin-top: 20px;
+}
+.popupcardfirst .lastpopputton button.see-button {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
 ul.repeated-ul {
-  margin-top: 72px;
+  margin-top: 50px;
   list-style: disc;
   width: fit-content;
   left: 0;
@@ -273,7 +327,7 @@ button.see-button:active {
 
 /* second page  */
 div.repeated-div-2 {
-  height: 592px;
+  height: 100%;
   grid-template-rows: 200px 110px 35px 92px;
   width: 327px;
   margin: 24px;
@@ -282,6 +336,7 @@ div.repeated-div-2 {
   padding: 16px;
   display: grid;
   background-color: #fff;
+  margin-bottom: 100px;
 }
 
 .space-2 {
@@ -307,6 +362,7 @@ div.div-flex {
   padding-top: 114px;
   padding-left: 24px;
   padding-right: 24px;
+  margin-top: 120px;
 }
 
 ul.social-1 {
@@ -583,8 +639,71 @@ label {
 h3 {
   margin-top: 40px;
 }
-
+.popup-overly {
+  display: flex;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  transform: translateY(0%);
+}
+.popup-box {
+  justify-content: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 80%;
+  height: 90%;
+  padding: 20px;
+  z-index: 10001;
+  border-radius: 16px;
+  display: grid;
+  gap: 200px;
+  overflow: hidden;
+}
+.popupcardfirst {
+  height: 46%;
+}
+.popup-box p.repeated-p2 {
+  max-height: 20%;
+}
 /* Desktop version */
+@media (max-width: 767px) {
+  .popupcardfirst {
+    width: 100%;
+  }
+  .pcardfirstimg .repeated-img {
+    width: 50%;
+    height: 100%;
+  }
+  .popupcardfirst .pc12-div {
+    flex-direction: column;
+  }
+  .popupcardfirst img.repeated-img {
+    width: 60%;
+    height: 100%;
+  }
+  .popupcardfirst .lastpopvutton {
+    margin-top: 55px;
+    width: 60%;
+  }
+  .popup-box p.repeated-p2 {
+    overflow: hidden;
+  }
+  .axey {
+    width: 71%;
+  }
+  .popup-box {
+    padding-left: 190px;
+  }
+}
+
 @media (min-width: 768px) {
   .nav-links-2 {
     display: none;
@@ -674,12 +793,13 @@ h3 {
 
   /* first page  */
   div.repeated-div {
-    height: 496px;
+    height: 100%;
     width: 80.2%;
     display: flex;
     margin: 0;
     min-width: 80%;
-    align-items: center;
+
+    margin-bottom: 100px;
   }
 
   img.repeated-img {
@@ -688,13 +808,13 @@ h3 {
 
   .pcrepeated-img {
     display: inline-flex;
-    width: 43%;
-    max-height: 480px;
+    width: 50%;
+    max-height: 100%;
   }
 
   .pc12-div {
     margin-left: 46px;
-    margin-top: -123px;
+
     width: 50%;
   }
 
@@ -750,11 +870,12 @@ h3 {
 
   /* second page  */
   div.repeated-div-2 {
-    height: 496px;
+    height: 100%;
     width: 80%;
     display: flex;
     margin: 0;
     justify-content: center;
+    margin-bottom: 100px;
   }
 
   .second-page-image {
@@ -778,6 +899,7 @@ h3 {
 
   div.div-flex {
     flex-direction: row;
+    margin-top: 120px;
   }
 
   .aboutmyself-top {
@@ -891,3 +1013,4 @@ h3 {
     margin-left: 36%;
   }
 }
+/*  pop up section work  */
