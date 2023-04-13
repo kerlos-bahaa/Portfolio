@@ -165,15 +165,18 @@ seebutton.forEach((button, index) => {
     };
   });
 });
-// const OpenProject = document.querySelectorAll(".see-button");
-// const fullSection = document.querySelector(".popup-overly");
-// for (let i = 0; i < OpenProject.length; i += 1) {
-//   OpenProject[i].onclick = () => {
-//     fullSection.classList.add("openMe");
-//     document.querySelector(".works-card h2").innerText = projectDetails[i].name;
-//     document.querySelector(".mobile-img").src =
-//       projectDetails[i].featuredImageMobile;
-//     document.querySelector(".desktop-img").src =
-//       projectDetails[i].featuredImageDesktop;
-//   };
-// }
+
+const form = document.querySelector('.form');
+
+const errorelement = document.querySelector('#error');
+const email = document.querySelector('#email');
+
+form.addEventListener('submit', (event) => {
+  errorelement.innerHTML = '';
+  if (email.value !== email.value.toLowerCase()) {
+    event.preventDefault();
+    errorelement.innerHTML = 'Email Must be lowercase ';
+    return false;
+  }
+  return true;
+});

@@ -691,6 +691,10 @@ label {
   padding: 0;
 }
 
+#error {
+  color: red;
+}
+
 /* Desktop version */
 @media (max-width: 767px) {
   .popupcardfirst {
