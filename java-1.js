@@ -1,80 +1,80 @@
-const myopen = document.querySelector(".open");
-const nav = document.querySelector(".nav-links-2");
-const myaxe = document.querySelector(".axe");
-const mytra1 = document.querySelector(".nav-transition-1");
-const mytra2 = document.querySelector(".nav-transition-2");
-const mytra3 = document.querySelector(".nav-transition-3");
+const myopen = document.querySelector('.open');
+const nav = document.querySelector('.nav-links-2');
+const myaxe = document.querySelector('.axe');
+const mytra1 = document.querySelector('.nav-transition-1');
+const mytra2 = document.querySelector('.nav-transition-2');
+const mytra3 = document.querySelector('.nav-transition-3');
 
 myopen.onclick = () => {
-  nav.style.cssText = "transform:translateY(0%);";
+  nav.style.cssText = 'transform:translateY(0%);';
 };
 myaxe.onclick = function () {
-  nav.style.cssText = "transform: translateY(-100%);";
+  nav.style.cssText = 'transform: translateY(-100%);';
 };
 mytra1.onclick = function () {
-  nav.style.cssText = "transform: translateY(-100%);";
+  nav.style.cssText = 'transform: translateY(-100%);';
 };
 mytra2.onclick = function () {
-  nav.style.cssText = "transform: translateY(-100%);";
+  nav.style.cssText = 'transform: translateY(-100%);';
 };
 mytra3.onclick = function () {
-  nav.style.cssText = "transform: translateY(-100%);";
+  nav.style.cssText = 'transform: translateY(-100%);';
 };
 
 // pop up section work
 const projectArray = [
   {
-    name: "Tonic",
+    name: 'Tonic',
     description: `  A daily selection of privately personalized reads; no accounts or
     sign-ups required.`,
-    featuredImage: "./picture/tonixpc.png",
-    technologies: ["html ", "css ", "java script"],
-    linktoliveversion: "",
-    linktosource: "#",
+    featuredImage: './picture/tonixpc.png',
+    technologies: ['html ', 'css ', 'java script'],
+    linktoliveversion: '',
+    linktosource: '#',
   },
   {
-    name: "Multi-Post Stories",
+    name: 'Multi-Post Stories',
     description: `  A daily selection of privately personalized reads; no accounts or
     sign-ups required.`,
-    featuredImage: "./picture/Snapshoot Portfoliopc.png",
-    technologies: ["html ", "css ", "java script"],
-    linktoliveversion: "",
-    linktosource: "#",
+    featuredImage: './picture/Snapshoot Portfoliopc.png',
+    technologies: ['html ', 'css ', 'java script'],
+    linktoliveversion: '',
+    linktosource: '#',
   },
   {
-    name: "Tonic",
+    name: 'Tonic',
     description: `  A daily selection of privately personalized reads; no accounts or
     sign-ups required.`,
-    featuredImage: "./picture/pc3.png",
-    technologies: ["html ", "css ", "java script"],
-    linktoliveversion: "",
-    linktosource: "#",
+    featuredImage: './picture/pc3.png',
+    technologies: ['html ', 'css ', 'java script'],
+    linktoliveversion: '',
+    linktosource: '#',
   },
   {
-    name: "Multi-Post Stories",
+    name: 'Multi-Post Stories',
     description: `  A daily selection of privately personalized reads; no accounts or
     sign-ups required.`,
-    featuredImage: "./picture/pc4.png",
-    technologies: ["html ", "css ", "java script"],
-    linktoliveversion: "",
-    linktosource: "#",
+    featuredImage: './picture/pc4.png',
+    technologies: ['html ', 'css ', 'java script'],
+    linktoliveversion: '',
+    linktosource: '#',
   },
 ];
 
-const project = document.querySelector("#portid");
+const project = document.querySelector('#portid');
 
 for (let i = 0; i < projectArray.length; i += 1) {
   project.innerHTML += `
-  <div class="${i % 2 ? "repeated-div" : "repeated-div-2"}">
+  <div class="${i % 2 ? 'repeated-div' : 'repeated-div-2'}">
   
 
   
   <img class="repeated-img" src="${
-    projectArray[i].featuredImage
-  }" alt="Snapshoot Portfolio " />
+  projectArray[i].featuredImage
+}" alt="Snapshoot Portfolio " />
 <img class="pcrepeated-img" src="${
-    projectArray[i].featuredImage
-  }" alt="Snapshoot Portfolio">
+  projectArray[i].featuredImage
+}" alt="Snapshoot Portfolio">
 <div class="pc12-div">
   <h3 class="repeated-p1"> ${projectArray[i].name} </h3>
   <ul class="repeated-ul">
@@ -96,17 +96,17 @@ for (let i = 0; i < projectArray.length; i += 1) {
 `;
 }
 
-const seebutton = document.querySelectorAll(".see-button");
+const seebutton = document.querySelectorAll('.see-button');
 // const pc12div = document.querySelectorAll(".pc12-div");
 
 seebutton.forEach((button, index) => {
-  button.addEventListener("click", () => {
-    const overlay = document.createElement("div");
-    overlay.className = "popup-overly";
+  button.addEventListener('click', () => {
+    const overlay = document.createElement('div');
+    overlay.className = 'popup-overly';
     document.body.appendChild(overlay);
 
-    const popupbox = document.createElement("div");
-    popupbox.className = "popup-box";
+    const popupbox = document.createElement('div');
+    popupbox.className = 'popup-box';
     overlay.appendChild(popupbox);
 
     popupbox.innerHTML = `
@@ -121,12 +121,12 @@ seebutton.forEach((button, index) => {
             </div> 
       <div class="repeated-div-2">
       <img class="repeated-img" src="${
-        projectArray[index].featuredImage
-      }" alt="Snapshoot Portfolio " />
+  projectArray[index].featuredImage
+}" alt="Snapshoot Portfolio " />
       
     <img class="pcrepeated-img" src="${
-      projectArray[index].featuredImage
-    }" alt="Snapshoot Portfolio"> 
+  projectArray[index].featuredImage
+}" alt="Snapshoot Portfolio"> 
     </div>
     <div class="pc12-div">
     <div>
@@ -158,37 +158,24 @@ seebutton.forEach((button, index) => {
     </div>
     `;
 
-    const myaxey = document.querySelector(".axey");
+    const myaxey = document.querySelector('.axey');
 
     myaxey.onclick = function () {
       overlay.remove();
     };
   });
 });
-// const OpenProject = document.querySelectorAll(".see-button");
-// const fullSection = document.querySelector(".popup-overly");
-// for (let i = 0; i < OpenProject.length; i += 1) {
-//   OpenProject[i].onclick = () => {
-//     fullSection.classList.add("openMe");
-//     document.querySelector(".works-card h2").innerText = projectDetails[i].name;
-//     document.querySelector(".mobile-img").src =
-//       projectDetails[i].featuredImageMobile;
-//     document.querySelector(".desktop-img").src =
-//       projectDetails[i].featuredImageDesktop;
-//   };
-// }
-const form = document.querySelector(".form");
-const submit = document.querySelector("#but");
-const errorelement = document.querySelector("#error");
-const email = document.querySelector("#email");
-const emailValue = email.value;
 
-let errorFlag = false;
-form.addEventListener("submit", (event) => {
-  errorelement.innerHTML = "";
+const form = document.querySelector('.form');
+
+const errorelement = document.querySelector('#error');
+const email = document.querySelector('#email');
+
+form.addEventListener('submit', (event) => {
+  errorelement.innerHTML = '';
   if (email.value !== email.value.toLowerCase()) {
     event.preventDefault();
-    errorelement.innerHTML = "pls change ";
+    errorelement.innerHTML = 'Email Must be lowercase ';
     return false;
   }
   return true;
